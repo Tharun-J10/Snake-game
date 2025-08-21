@@ -1,58 +1,77 @@
-Snake Game 🐍
+Python/
+│── code/       snakegame.py
+│── img/         output
+│── README.md
 
-A simple and classic Snake Game implementation using Python and Pygame.
-The player controls a snake that grows in length every time it eats food. The game ends if the snake collides with the wall or itself.
+# 🐍 Snake Game (Python)
 
-🎮 Features:
-Classic snake gameplay.
+A simple *Snake Game* built using Python.  
+The game uses pygame for graphics and controls.  
 
-Score tracking.
+## 📂 Project Structure
 
-Food randomly appears on the screen.
 
-Snake grows longer when eating food.
 
-Game over when snake hits the wall or itself.
+Python/
+Python/
+│── code/       snakegame.py
+│── img/        output
+│── README.md
 
-🛠️ Technologies Used:
+## 🚀 Features
+- Classic Snake gameplay
+- Score tracking
+- Simple controls
+- Beginner-friendly Python implementation
 
-Python 3
-Pygame library
 
-📂 Project Structure
-Snake-game/
-│── snake.py          # Main game script
-│── README.md         # Project documentation (this file)
+## 🖼 Screenshot
 
-🚀 How to Run
-1. Clone the repository
-git clone https://github.com/Tharun-J10/Snake-game.git
-cd Snake-game
+![Snake Game](img/output.png)
 
-2. Install dependencies
-3. 
-Make sure Python and Pygame are installed.
+
+## ⚙ Requirements
+
+Make sure you have Python installed.  
+Install required dependencies:
+
+```bash
 pip install pygame
 
-3. Run the game
+▶ How to Run
+
+Navigate to the project directory:
+
+cd Python/code
+
+
+Run the game:
+
 python snake.py
 
-🎯 Gameplay Instructions
 
-Use Arrow Keys (⬆️ ⬇️ ⬅️ ➡️) to move the snake.
+(Replace snake.py with your actual main file name if different.)
 
-Eat the red food to grow in size and increase your score.
+🎮 Controls
 
-Avoid hitting the walls or your own body.
+⬆ Arrow Up – Move Up
 
-📸 Screenshots
+⬇ Arrow Down – Move Down
 
-(You can add screenshots of your game here by uploading images to the repo and embedding them in the README.)
+⬅ Arrow Left – Move Left
 
-🧑‍💻 Author
+➡ Arrow Right – Move Right
 
-Tharun J
+📌 Notes
+
+You can modify game settings (speed, window size, colors) directly in the code.
+
+Make sure the img folder is present if the game uses custom images.
+
+🤝 Contribution
+
+Feel free to fork, improve, and submit pull requests.
 
 📜 License
 
-This project is licensed under the MIT License – feel free to use, modify, and distribute it.
+This project is open-source and available under the MIT License.
