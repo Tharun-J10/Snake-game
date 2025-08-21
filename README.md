@@ -27,7 +27,8 @@ Python/
 
 ## 🖼 Screenshot
 
-output.png
+![Snake Game](img/output)
+
 
 
 ## ⚙ Requirements
