@@ -1,42 +1,58 @@
-# 🐍 Snake Game
+Snake Game 🐍
 
-A classic Snake game implemented using Python and the Pygame library. This project is a simple yet fun recreation of the well-known arcade game, designed to demonstrate the use of basic game loops, user interaction, and graphical rendering using Pygame.
+A simple and classic Snake Game implementation using Python and Pygame.
+The player controls a snake that grows in length every time it eats food. The game ends if the snake collides with the wall or itself.
 
-## 🎮 Game Features
+🎮 Features:
+Classic snake gameplay.
 
-- Snake grows as it eats food
-- Score tracking
-- Game over screen
-- Real-time movement using arrow keys
-- Smooth gameplay and simple design
+Score tracking.
 
-## 📸 Screenshot
+Food randomly appears on the screen.
 
-![Snake Game Screenshot](screenshot.png) <!-- Add a real screenshot file in the repo for this to work -->
+Snake grows longer when eating food.
 
-## 🚀 Technologies Used
+Game over when snake hits the wall or itself.
 
-- **Language:** Python 🐍
-- **Library:** [Pygame](https://www.pygame.org/) 🎮
+🛠️ Technologies Used:
 
-## 📁 Project Structure
+Python 3
+Pygame library
 
+📂 Project Structure
+Snake-game/
+│── snake.py          # Main game script
+│── README.md         # Project documentation (this file)
 
-## 🧠 How It Works
+🚀 How to Run
+1. Clone the repository
+git clone https://github.com/Tharun-J10/Snake-game.git
+cd Snake-game
 
-- The snake is controlled by the player using arrow keys.
-- It moves continuously on the screen and grows longer every time it eats food.
-- If the snake collides with itself or the wall, the game ends.
-- The score is displayed and updated on the screen during gameplay.
-
-## 🛠️ Installation & Running
-
-### Prerequisites
-
-Make sure you have Python installed. You can download it from [python.org](https://www.python.org/).
-
-### Install Pygame
-
-```bash
+2. Install dependencies
+3. 
+Make sure Python and Pygame are installed.
 pip install pygame
-python snake.py                                                                                                                                                                                                                                                          
+
+3. Run the game
+python snake.py
+
+🎯 Gameplay Instructions
+
+Use Arrow Keys (⬆️ ⬇️ ⬅️ ➡️) to move the snake.
+
+Eat the red food to grow in size and increase your score.
+
+Avoid hitting the walls or your own body.
+
+📸 Screenshots
+
+(You can add screenshots of your game here by uploading images to the repo and embedding them in the README.)
+
+🧑‍💻 Author
+
+Tharun J
+
+📜 License
+
+This project is licensed under the MIT License – feel free to use, modify, and distribute it.
