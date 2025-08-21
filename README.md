@@ -27,7 +27,7 @@ Python/
 
 ## 🖼 Screenshot
 
-(img/output.png)
+output.png
 
 
 ## ⚙ Requirements
